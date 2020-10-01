@@ -1,0 +1,21 @@
+# k=v
+#对空格的要求十分高
+#普通的key=value
+
+#注入到我们的配置类中
+name: 肖力弋
+#对象
+student:
+  name: 肖力弋
+  age: 3
+
+#  行列写法
+studentperson: {name: 肖力弋,age: 3}
+
+#数组写法
+pets:
+  - cat
+  - dog
+  - pig
+
+pet: {cat,dog,pig}

@@ -1,0 +1,17 @@
+person:
+  name: аЁНѕ
+  age: ${random.int}
+  happy: false
+  birthday: 2020/5/31
+  maps: {k1: v1,K2: v2}
+  hello: happy
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: ${person.hello}_взбя
+
+dog:
+  first-name: взбя
+  age: 3

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-day05-demo01/springboot-day05-demo01.iml" filepath="$PROJECT_DIR$/springboot-day05-demo01/springboot-day05-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-study-day01-demo01/springboot-study-day01-demo01.iml" filepath="$PROJECT_DIR$/springboot-study-day01-demo01/springboot-study-day01-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-study-day02-demo01/springboot-study-day02-demo01.iml" filepath="$PROJECT_DIR$/springboot-study-day02-demo01/springboot-study-day02-demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-day03-demo01/springboot-study-day03-demo01.iml" filepath="$PROJECT_DIR$/springboot-study-day03-demo01/springboot-study-day03-demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-day04-demo01/springboot-study-day04-demo01.iml" filepath="$PROJECT_DIR$/springboot-study-day04-demo01/springboot-study-day04-demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-day06-demo01/springboot-study-day06-demo01.iml" filepath="$PROJECT_DIR$/springboot-study-day06-demo01/springboot-study-day06-demo01.iml" />
     </modules>
   </component>
 </project>

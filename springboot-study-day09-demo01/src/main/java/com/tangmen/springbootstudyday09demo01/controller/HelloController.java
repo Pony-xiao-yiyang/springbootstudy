@@ -12,13 +12,12 @@ import java.util.Arrays;
  * @time: 2020/11/16 15:25
  */
 @Controller
-@RequestMapping("/hello")
 public class HelloController {
-    @RequestMapping("/java")
+
+    @RequestMapping("/hello")
     public String HelloJava(Model model){
         model.addAttribute("msg","<h1>hello,springboot for java</h1>");
         model.addAttribute("users", Arrays.asList("波多野结衣","苍老师"));
-
         return "test";
     }
 }

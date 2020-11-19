@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" xmlns: th="http://www.thymeleaf.org" >
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Adolf.Musk是个大帅比</title>
 </head>
 <body>
-<div th：text="${msg}"></div>
-<div th：utext="${msg}"></div>
+<div th:text="${msg}"></div>
+<div th:utext="${msg}"></div>
 <hr>
-<h3 th: each="user:${users} th: text=${user}"></h3>
+<h3 th:each="users:${users}" th:text="${users}"></h3>
 </body>
 </html>

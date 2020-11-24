@@ -1,0 +1,53 @@
+# 配置tomcat端口
+server:
+  port: 8080
+  servlet:
+    # 上下文路径
+    context-path: /cms
+
+#  配置druid连接池
+spring:
+  datasource:
+    druid:
+      username: root
+      password: 123456
+      url: jdbc:mysql://localhost:3306/j2001-cms?serverTimezone=Asia/Shanghai
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      max-active: 10
+      min-idle: 3
+  redis:
+    #    redis 的ip地址
+    host: 192.168.6.31
+    #    指定redis端口
+    port: 6379
+
+mybatis:
+  #   配置mybatis mapper扫描
+  mapper-locations: classpath:com/rimi/mapper/*.xml
+  #   对指定的包取别名
+  type-aliases-package: com.rimi.bean
+  configuration:
+    #    驼峰转换
+    map-underscore-to-camel-case: true
+
+#  配置日志级别
+logging:
+  level:
+    root: info
+    com:
+      rimi:
+        mapper: trace
+
+shiro:
+  login-url: /login
+  unauthorized-url: /static/401.html
+  realm-name: mysqlRealm
+  hash-algorithm-name: md5
+  hash-iterations: 1024
+
+swagger2:
+  base-package: com.rimi.controller
+  title: cms接口文档
+  description: 如有疑问，请联系管理员
+  version: 1.0.0
+  terms-of-service-url: https://localhost:8080/cms/login
